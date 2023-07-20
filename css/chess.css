@@ -1,0 +1,26 @@
+.board{
+border: solid black 1px;
+height: 656px;
+width: 656px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.square{
+    height: 70px;
+    width: 70px;
+    border:solid black 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.mouse-image{
+    background-image: null;
+}
+
+.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% ;
+}

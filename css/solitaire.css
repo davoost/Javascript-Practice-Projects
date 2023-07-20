@@ -1,0 +1,53 @@
+
+.page{
+    background-color: green;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    height:60px;
+    position: relative;
+}
+.board{
+    width:800px;
+    height:700px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+.turned-cards{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+
+.finish-zone{
+    position: absolute;
+    padding-left:10px;
+    top: 10px;
+}
+.f0{
+    left: 340px;
+}
+.f1{
+    left: 450px;
+}
+.f2{
+    left: 560px;
+}
+.f3{
+    left: 670px;
+}
+
+.stacks{
+    position: absolute;
+    padding-left: 10px;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.stack{
+width: 100px;
+padding-left: 10px;
+}
